@@ -9,8 +9,8 @@ import NotFound from "./components/pages/pageNotFound";
 import { Routes, Route, Navigate } from "react-router-dom";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { MyContext } from "./context";
-import axios from "axios";
-import { DB_API } from "./api";
+
+
 
 const App = () => {
   const { mode} = useContext(MyContext);

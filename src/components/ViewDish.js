@@ -10,7 +10,7 @@ import List from "@mui/material/List";
 import ListItemText from "@mui/material/ListItemText";
 import Button from "@mui/material/Button";
 import { MyContext } from "../context";
-import { API, DB_API } from "../api";
+import { API } from "../api";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 

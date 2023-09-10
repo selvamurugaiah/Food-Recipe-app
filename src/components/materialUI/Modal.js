@@ -7,10 +7,10 @@ import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
 import { useNavigate } from "react-router-dom";
 import Typography from "@mui/material/Typography";
-import { MyContext } from "../../context";
+
 import axios from "axios";
-import { API, DB_API } from "../../api";
-import { ToastContainer, toast } from "react-toastify";
+import { API } from "../../api";
+import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Modal = ({ dish }) => {

@@ -15,7 +15,7 @@ import MenuItem from "@mui/material/MenuItem";
 import FastfoodIcon from "@mui/icons-material/Fastfood";
 import Avatar from "@mui/material/Avatar";
 import { useNavigate } from "react-router-dom";
-import { useAuth0 } from "@auth0/auth0-react";
+
 
 const ResponsiveAppBar = (props) => {
   const {  setMode } = useContext(MyContext);
